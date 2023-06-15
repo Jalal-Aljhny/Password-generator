@@ -29,10 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-Note that some sections don't show case it show when scroll
-![](./images/Screenshot-1.png)
-![](./images/Screenshot-2.png)
-![](./images/Screenshot-3.png)
+![](images/Screenshot-1.png)
+![](images/Screenshot-2.png)
+![](images/Screenshot-3.png)
 
 ### Links
 
