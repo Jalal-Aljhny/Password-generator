@@ -28,6 +28,9 @@ body {
     margin-right: auto;
     width: 500px;
     max-width: 100%;
+    @media (max-width: 576px) {
+      width: 400px;
+    }
   }
   header {
     h1 {
@@ -45,6 +48,9 @@ body {
       justify-content: space-between;
       align-items: center;
       padding: 10px 25px;
+      @media (max-width: 576px) {
+        padding: 10px 15px;
+      }
       background-color: $main-b-color;
       height: clamp(60px, 80px, 100px);
       p {
@@ -70,6 +76,9 @@ body {
     .container {
       background-color: $main-b-color;
       padding: 30px;
+      @media (max-width: 576px) {
+        padding: 15px;
+      }
       > div {
         display: flex;
         justify-content: space-between;
@@ -136,6 +145,10 @@ body {
           margin-top: 20px;
           padding-left: 30px;
           padding-right: 30px;
+          @media (max-width: 576px) {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
           background-color: #18171f;
           display: flex;
           justify-content: space-between;
@@ -179,6 +192,10 @@ body {
       div.submit {
         padding-left: 30px;
         padding-right: 30px;
+        @media (max-width: 576px) {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
         margin-top: 30px;
         background-color: $main-color;
         cursor: pointer;
